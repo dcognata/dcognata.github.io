@@ -1,1 +1,508 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="CV Damien Cognata">
+		<meta name="keywords" content="Damien,Cognata,web,symfony,developper,42,portfolio">
+		<meta name="author" content="Damien Cognata">
+		<meta name="Identifier-url" content="https://dcognata.github.io">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/app.css">
+		<link rel="icon" type="image/png" href="./images/photo.png"/>
+		<title>Damien Cognata</title>
+	</head>
+
+	<body style="opacity: 0">
+		<header id="header">
+			<div class="maxWidth">
+				<div class="photo"><span></span></div>
+				<div class="infos">
+					<h1>DAMIEN COGNATA</h1>
+					<ul>
+						<li class="job">
+							<span></span>
+							<p>Développeur</p>
+						</li>
+						<li class="birth">
+							<span></span>
+							<p>06/10/1996 (<span id="age"></span> ans)</p>
+						</li>
+						<li class="location">
+							<span></span>
+							<p>Paris, France</p>
+						</li>
+						<li class="languages">
+							<span></span>
+							<p>Français, Anglais</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<nav id="nav">
+			<div class="maxWidth">
+				<a href="#profile">
+					<span></span>
+					<p>Profil</p>
+				</a>
+				<a href="#experiences">
+					<span></span>
+					<p>Expériences</p>
+				</a>
+				<a href="#training">
+					<span></span>
+					<p>Formations</p>
+				</a>
+				<a href="#skills">
+					<span></span>
+					<p>Compétences</p>
+				</a>
+			</div>
+		</nav>
+
+		<main id="main" role="main">
+			<div class="maxWidth">
+				<section id="profile">
+					<h2>
+						<span></span>
+						<p>Profil</p>
+					</h2>
+					<p>Ma formation à l'école 42 a fait de moi un développeur agile, capable de s'adapter à tous les environnements de travail, capable aussi d'apprendre et devenir productif sur une nouvelle technologie rapidement.</p>
+					<p>Autonome, passionné, attentif aux besoins et à la qualité de ce que je produis.</p>
+					<p>Large éventail de compétences, en particulier une expertise sur le développement web, front et backend : PHP, Symfony (4 ans d'expérience) HTML5/CSS (W3C, SASS, LESS), JS et d’autres technologies web, Laravel, Twitter Bootstrap, SEO...</p>
+					<p>Les technologies de programmation bas niveaux : C, C++, Bash.</p>
+					<p>Compétence en administration système sous Linux (debian, ubuntu, centos), Docker, AWS, infogérance de serveurs et expérience en graphisme & UI / UX.</p>
+					<p>Mes compétences s'étendent aux domaines suivants:</p>
+					<ul>
+						<li>Algorithmie</li>
+						<li>UX / UI</li>
+						<li>API REST</li>
+						<li>Shell scripts</li>
+						<li>Headless systems</li>
+						<li>Wizardry</li>
+					</ul>
+
+				</section>
+				<section id="experiences">
+					<h2>
+						<span></span>
+						<p>Expériences professionnelles</p>
+					</h2>
+					<ul>
+						<li class="galadrim">
+							<header>
+								<span></span>
+								<div>
+									<h3>Développeur Full Stack</h3>
+									<p>Galadrim → <a href="https://galadrim.fr/" target="_BLANK">https://galadrim.fr/</a></p>
+									<span>Juillet 2018 - Mars 2019</span>
+								</div>
+							</header>
+							<div id="galadrimContent">
+								<div>
+									<p>Développement font-end et back-end sur des projets à courts termes (10 à 80 jours) en freelance.</p>
+									<p><span class="bold">Méthodologie</span>: Agile (scrum)</p>
+									<div class="project">
+										<h4>Quotatis</h4>
+										<p>Développement de l'application mobile Quotatis à destination des artisans et professionnels de la plateforme, en relation continue avec l'équipe back-end de la filiale.</p>
+										<ul>
+											<li>Intégration des maquettes avec InVision</li>
+											<li>Système d'authentification</li>
+											<li>Système de jobs</li>
+											<li>Mise en place d'un serveur NodeJs pour contrôler un système de notifications</li>
+										</ul>
+										<p><span class="bold">Technologies</span>: NodeJs, MySQL, Expo, React Native</p>
+										<div>
+											<a href="./rcs/images/projects/quotatis1.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/quotatis1.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/quotatis2.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/quotatis2.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/quotatis3.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/quotatis3.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/quotatis4.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/quotatis4.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/quotatis5.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/quotatis5.jpg"/>
+											</a>
+										</div>
+									</div>
+									<div class="project">
+										<h4>Leadersanté</h4>
+										<p>Développement de l'application mobile Leadersanté.</p>
+										<ul>
+											<li>Intégration des maquettes avec InVision</li>
+											<li>Développement back-end</li>
+											<li>Système d'authentification</li>
+											<li>Système de marketplace et tunnel d'achat avec MangoPay</li>
+											<li>Système de fil d'actualités</li>
+											<li>Système de scan d'ordonnances</li>
+											<li>Système de prise de rendez-vous</li>
+											<li>Système de cartes de fidélité virtuelles</li>
+											<li>Système de notifications</li>
+										</ul>
+										<p><span class="bold">Technologies</span>: NodeJs, MySQL, Expo, React Native</p>
+										<p>Développement web du back office à destination des pharmaciens.</p>
+										<ul>
+											<li>Intégration des maquettes avec InVision</li>
+											<li>Développement back-end</li>
+											<li>Gestion des commandes</li>
+											<li>Gestion du fil d'actualité</li>
+											<li>Gestion des scans d'ordonnances</li>
+											<li>Gestion des rendez-vous</li>
+											<li>Gestion des notifications</li>
+										</ul>
+										<p><span class="bold">Technologies</span>: NodeJs, MySQL, Html, Css, Js</p>
+										<div>
+											<a href="./rcs/images/projects/leadersante1.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/leadersante1.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/leadersante2.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/leadersante2.jpg"/>
+											</a>
+											<a href="./rcs/images/projects/leadersante3.jpg" target="_BLANK">
+												<img src="./rcs/images/projects/leadersante3.jpg"/>
+											</a>
+										</div>
+									</div>
+									<div class="project">
+										<h4>OpenGolfClub</h4>
+										<p>Développement d'un système de réservation de Green Fees intégré en iframe au site web.</p>
+										<ul>
+											<li>Intégration sans maquettes</li>
+											<li>Développement back-end</li>
+											<li>Système multilangues</li>
+										</ul>
+										<p><span class="bold">Technologies</span>: NodeJs, MySQL, Html, Css, Js</p>
+										<div>
+											<a href="./rcs/images/projects/opengolfclub1.png" target="_BLANK">
+												<img src="./rcs/images/projects/opengolfclub1.png"/>
+											</a>
+											<a href="./rcs/images/projects/opengolfclub2.png" target="_BLANK">
+												<img src="./rcs/images/projects/opengolfclub2.png"/>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<footer>
+								<input
+									type="button"
+									value="EN SAVOIR PLUS"
+									onclick="Ui.toggleExperience(event.target, 'galadrimContent');"
+								>
+							</footer>
+						</li>
+						<li class="cremedelacreme">
+							<header>
+								<span></span>
+								<div>
+									<h3>Développeur Front End</h3>
+									<p>Crème de la Crème → <a href="https://cremedelacreme.io/" target="_BLANK">https://cremedelacreme.io/</a></p>
+									<span>Avril 2017 - Octobre 2017</span>
+								</div>
+							</header>
+							<div id="cremedelacremeContent">
+								<div>
+									<p>Intégré au cœur de l'équipe technique pour développer la deuxième version majeure de la plateforme.</p>
+									<ul>
+										<li>Intégration des maquettes avec InVision</li>
+										<li>Développement du processus d'aquisition et refonte de l'onboarding</li>
+										<li>Développement du système multilangues</li>
+										<li>Optimisation des temps de chargement et de rendu de la plateforme</li>
+									</ul>
+									<p><span class="bold">Technologies</span>: Html, Css, Scss, Js, AngularJs, VueJs</p>
+									<p><span class="bold">Méthodologie</span>: Agile</p>
+								</div>
+							</div>
+							<footer>
+								<input
+									type="button"
+									value="EN SAVOIR PLUS"
+									onclick="Ui.toggleExperience(event.target, 'cremedelacremeContent');"
+								>
+							</footer>
+						</li>
+					</ul>
+				</section>
+				<section id="training">
+					<h2>
+						<span></span>
+						<p>Formations</p>
+					</h2>
+					<div>
+						<div>
+							<header>
+								<span></span>
+								<div>
+									<h3>École 42</h3>
+									<p>Paris, France</p>
+									<span>2014 - 2017</span>
+								</div>
+							</header>
+							<ul>
+								<li>
+									<p>Libft</p>
+									<span></span>
+									<p>116<span>/100</span></p>
+								</li>
+								<li>
+									<p>Filit</p>
+									<span></span>
+									<p>100<span>/100</span></p>
+								</li>
+								<li>
+									<p>Get_Next_Line</p>
+									<span></span>
+									<p>107<span>/100</span></p>
+								</li>
+								<li>
+									<p>FdF</p>
+									<span></span>
+									<p>125<span>/100</span></p>
+								</li>
+								<li>
+									<p>Fract'ol</p>
+									<span></span>
+									<p>112<span>/100</span></p>
+								</li>
+								<li>
+									<p>Wolf3d</p>
+									<span></span>
+									<p>125<span>/100</span></p>
+								</li>
+								<li>
+									<p>ft_printf</p>
+									<span></span>
+									<p>94<span>/100</span></p>
+								</li>
+								<li>
+									<p>Camagru</p>
+									<span></span>
+									<p>119<span>/100</span></p>
+								</li>
+								<li>
+									<p>RT</p>
+									<span></span>
+									<p>85<span>/100</span></p>
+								</li>
+								<li>
+									<p>Dr Quine (C part)</p>
+									<span></span>
+									<p>50<span>/50</span></p>
+								</li>
+								<li>
+									<p>Exams</p>
+									<span></span>
+									<p>96<span>/100</span></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section id="skills">
+					<h2>
+						<span></span>
+						<p>Compétences</p>
+					</h2>
+					<!-- <p>En construction.</p> -->
+					<ul>
+						<li>
+							<h3>Langages</h3>
+							<div class="skill">
+								<p>Ops</p>
+								<div>
+									<div class="progressBar"><p style="width:86%;"><span>86</span></p></div>
+									<ul class="details">
+										<li>
+											<p>LAMP</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+										<li>
+											<p>Docker</p>
+											<span></span>
+											<div><p style="width:60%;"><span>60</span></p></div>
+										</li>
+										<li>
+											<p>Plesk</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="skill">
+								<p>PHP</p>
+								<div>
+									<div class="progressBar"><p style="width:83%;"><span>83</span></p></div>
+									<ul class="details">
+										<li>
+											<p>Symfony</p>
+											<span></span>
+											<div><p style="width:80%;"><span>80</span></p></div>
+										</li>
+										<li>
+											<p>Laravel</p>
+											<span></span>
+											<div><p style="width:70%;"><span>70</span></p></div>
+										</li>
+										<li>
+											<p>Wordpress</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="skill">
+								<p>Html</p>
+								<div>
+									<div class="progressBar"><p style="width:96%;"><span>96</span></p></div>
+									<ul class="details">
+										<li>
+											<p>Core</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+										<li>
+											<p>Twig</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+										<li>
+											<p>Handlebars</p>
+											<span></span>
+											<div><p style="width:90%;"><span>90</span></p></div>
+										</li>
+										<li>
+											<p>Seo</p>
+											<span></span>
+											<div><p style="width:90%;"><span>90</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="skill">
+								<p>Css</p>
+								<div>
+									<div class="progressBar"><p style="width:100%;"><span>100</span></p></div>
+									<ul class="details">
+										<li>
+											<p>Core</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+										<li>
+											<p>Scss / Sass</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="skill">
+								<p>Js</p>
+								<div>
+									<div class="progressBar"><p style="width:67%;"><span>67</span></p></div>
+									<ul class="details">
+										<li>
+											<p>Core / ES</p>
+											<span></span>
+											<div><p style="width:100%;"><span>100</span></p></div>
+										</li>
+										<li>
+											<p>VueJs</p>
+											<span></span>
+											<div><p style="width:80%;"><span>80</span></p></div>
+										</li>
+										<li>
+											<p>NodeJs</p>
+											<span></span>
+											<div><p style="width:20%;"><span>20</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="skill">
+								<p>C</p>
+								<div>
+									<div class="progressBar"><p style="width:75%;"><span>75</span></p></div>
+									<ul class="details">
+										<li>
+											<p>Core</p>
+											<span></span>
+											<div><p style="width:80%;"><span>80</span></p></div>
+										</li>
+										<li>
+											<p>SDL2</p>
+											<span></span>
+											<div><p style="width:70%;"><span>70</span></p></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h3>SGBD</h3>
+							<ul>
+								<li>MySQL</li>
+								<li>MariaDB</li>
+								<li>PostgreSQL</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Versionning</h3>
+							<ul>
+								<li>Git</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Éditeurs / IDE</h3>
+							<ul>
+								<li>PhpStorm</li>
+								<li>WebStorm</li>
+								<li>Sublime Text</li>
+								<li>Visual Studio</li>
+								<li>Vim</li>
+								<li>Nano</li>
+								<li>Emacs</li>
+							</ul>
+						</li>
+						<li>
+							<h3>OS</h3>
+							<ul>
+								<li>Windows</li>
+								<li>Mac</li>
+								<li>Linux</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Gestion de projets</h3>
+							<ul>
+								<li>Méthode Scrum / Kanan</li>
+								<li>Trello</li>
+								<li>Slack</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+
+		<footer id="footer">
+			<div class="maxWidth">
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/fr.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+	</body>
+</html>
