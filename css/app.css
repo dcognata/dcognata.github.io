@@ -64,10 +64,8 @@ body { background-color: #f5f5f5; transition: opacity 250ms ease-in-out;}
 		#experiences > ul > li { margin-top: 32px; border-radius: 4px; background-color: #fff; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);}
 			#experiences > ul > li > header { display: flex; padding: 16px 16px 8px 16px;}
 				#experiences > ul > li > header > span { display: block; width: 64px; height: 64px; border-radius: 4px; background-size: cover;}
-				#experiences > ul > li.galadrim > header > span { background-image: url("../images/galadrim.png");}
-				#experiences > ul > li.cremedelacreme > header > span { background-image: url("../images/cremedelacreme.png");}
-				#experiences > ul > li.kelprof > header > span { border: 1px solid #eee; background-image: url("../images/kelprof.png");}
-				#experiences > ul > li.cimes > header > span { background-image: url("../images/cimes.png");}
+				#experiences > ul > li.freelance > header > span { background-image: url("../images/projects/freelance.jpg");}
+				#experiences > ul > li.mscpi > header > span { background-image: url("../images/projects/mscpi.png");}
 				#experiences > ul > li > header > div { flex: 1; padding-left: 16px;}
 					#experiences > ul > li > header > div > h3 { line-height: 18px; font-weight: 500; font-size: 18px;}
 					#experiences > ul > li > header > div > p { line-height: 14px; margin-top: 8px; font-size: 14px;}
