@@ -38,7 +38,7 @@ body { background-color: #f5f5f5; transition: opacity 250ms ease-in-out;}
 		#nav > div > a[href="#training"] > span { background-image: url("../icons/training.svg");}
 		#nav > div > a[href="#skills"] > span { background-image: url("../icons/skills.svg");}
 		#nav > div > a[href="https://www.linkedin.com/in/damiencognata/"] > span { background-image: url("../icons/linkedin.svg");}
-		#nav > div > a[href="./uploads/cv.pdf"] > span { background-image: url("../icons/cv.svg");}
+		#nav > div > a[href="./uploads/CV.pdf"] > span { background-image: url("../icons/cv.svg");}
 		#nav > div > a[href="https://www.github.com/dcognata/"] > span { background-image: url("../icons/github.svg");}
 		#nav > div > a > p { padding-left: 8px; font-weight: 300; font-size: 16px;}
 @media (max-width: 539px) {
